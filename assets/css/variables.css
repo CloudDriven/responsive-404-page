@@ -1,0 +1,26 @@
+:root {
+    --header-height: 3.5rem;
+
+    /*Colors*/
+    --first-color: #9ACBD0;
+    --text-color: #F2EFE7;
+    --second-color: #006A71;
+
+    /*Font and typography*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: 'Space Grotesk', sans-serif;
+    --biggest-font-size: 2.375rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: .938rem;
+
+    /*Responsive typography*/
+    @media screen and (min-width: 1024px) {
+        :root {
+            --biggest-font-size: 5rem;
+            --normal-font-size: 1rem;
+            --smaller-font-size: .813rem;
+        }
+    }
+
+
+}
